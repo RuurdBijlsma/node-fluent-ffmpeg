@@ -1373,7 +1373,7 @@ The returned object for filters looks like:
 * `input` tells the input type this filter operates on, one of "audio", "video" or "none".  When "none", the filter likely generates output from nothing
 * `multipleInputs` tells whether the filter can accept multiple inputs
 * `output` tells the output type this filter generates, one of "audio", "video" or "none".  When "none", the filter has no output (sink only)
-* `multipleInputs` tells whether the filter can generate multiple outputs
+* `multipleOutputs` tells whether the filter can generate multiple outputs
 
 ### Cloning an FfmpegCommand
 
